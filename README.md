@@ -1,5 +1,5 @@
 ## Hi there 👋
-<h1 align="left">Hey 👋 What's up?</h1>
+
 ![Header](./github-header-image.png)
 
 ###
