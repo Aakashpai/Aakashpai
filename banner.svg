@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 923 200" width="923" height="200" role="img" aria-label="Aakash Pai, web developer">
+  <style>
+    .name{font:500 44px/1 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:#fff}
+    .tag{font:italic 400 18px/1 Georgia,"Times New Roman",serif;fill:#d95cff;letter-spacing:.06em}
+    .cursor{fill:#d95cff;animation:blink 1.1s steps(1) infinite}
+    .hex{fill:none;stroke:url(#g);stroke-width:5;stroke-linejoin:round;stroke-dasharray:420;stroke-dashoffset:420;animation:draw 2.4s ease-out forwards}
+    .hex.r{animation-delay:.3s}
+    .code{fill:none;stroke:#fff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;opacity:0;animation:fade .6s 1.6s ease-out forwards}
+    .dot{fill:#8fb8ff;animation:pulse 3s ease-in-out infinite}
+    .dot:nth-child(2n){animation-delay:.8s}.dot:nth-child(3n){animation-delay:1.6s}
+    .line{fill:none;stroke:#2a3350;stroke-width:1}
+    @keyframes draw{to{stroke-dashoffset:0}}
+    @keyframes fade{to{opacity:1}}
+    @keyframes blink{50%{opacity:0}}
+    @keyframes pulse{0%,100%{opacity:.25;r:1.5}50%{opacity:1;r:2.5}}
+    @media (prefers-reduced-motion:reduce){.hex,.code{animation:none;stroke-dashoffset:0;opacity:1}.cursor,.dot{animation:none}}
+  </style>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5ac8fa"/>
+      <stop offset="1" stop-color="#c15cff"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 .5 .5" to="360 .5 .5" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="923" height="200" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="923" height="200" fill="#0b0b10"/>
+    <g class="net">
+      <path class="line" d="M0 40 L120 90 L60 170 M120 90 L260 30 L380 120 L300 200 M380 120 L520 60 L640 150 L760 40 L923 110 M640 150 L560 200 M760 40 L830 0 M520 60 L470 0"/>
+      <circle class="dot" cx="120" cy="90" r="2"/><circle class="dot" cx="260" cy="30" r="2"/><circle class="dot" cx="380" cy="120" r="2"/>
+      <circle class="dot" cx="520" cy="60" r="2"/><circle class="dot" cx="640" cy="150" r="2"/><circle class="dot" cx="760" cy="40" r="2"/>
+      <circle class="dot" cx="60" cy="170" r="2"/><circle class="dot" cx="300" cy="200" r="2"/><circle class="dot" cx="830" cy="0" r="2"/>
+    </g>
+    <!-- left badge -->
+    <g transform="translate(75 100)">
+      <polygon class="hex" points="0,-52 45,-26 45,26 0,52 -45,26 -45,-26"/>
+      <path class="code" d="M-16 -14 L-30 0 L-16 14 M16 -14 L30 0 L16 14 M5 -22 L-5 22"/>
+    </g>
+    <!-- right badge -->
+    <g transform="translate(848 100)">
+      <polygon class="hex r" points="0,-52 45,-26 45,26 0,52 -45,26 -45,-26"/>
+      <path class="code" d="M-16 -14 L-30 0 L-16 14 M16 -14 L30 0 L16 14 M5 -22 L-5 22"/>
+    </g>
+    <text class="name" x="461.5" y="98" text-anchor="middle">Hey! I am Aakash Pai</text>
+    <text class="tag" x="450" y="136" text-anchor="middle">Web developer</text>
+    <rect class="cursor" x="518" y="121" width="2" height="18"/>
+  </g>
+</svg>
