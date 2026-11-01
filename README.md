@@ -13,14 +13,9 @@ Frontend engineer at [HowNow](https://gethownow.com), Mumbai. I build product UI
 
 ### Things I've built
 
-- **[ui-assert](https://github.com/Aakashpai/ui-assert)**: render a page and get a short verdict on design tokens, layout and accessibility. Built for coding agents and CI.
-- **[Kitty](https://github.com/Aakashpai/kitty)**: shared trip expenses for a group of friends. Multi-currency balances, an offline-first PWA with bookings, receipts and an end-to-end encrypted document vault, all on free hosting.
+- **[ui-assert](https://github.com/Aakashpai/ui-assert)**: a tool that opens a web page and checks it for design and accessibility problems, like text that's hard to read or a layout that breaks on a phone. Available on [npm](https://www.npmjs.com/package/ui-assert).
+- **[Kitty](https://github.com/Aakashpai/kitty)**: an app for splitting trip expenses with friends. It works offline, handles multiple currencies, and keeps bookings and documents in one place.
 - **[aakashpai.com](https://aakashpai.com)**: my portfolio and résumé.
-
-### Open source
-
-- **[react-toastify](https://github.com/fkhadra/react-toastify)** (13k ★): [let consumer CSS override the toast variables](https://github.com/fkhadra/react-toastify/commit/bacaa6951929eb64146d2d7980281b9746285bc8) by prepending the injected stylesheet.
-- **[react-select-async-paginate](https://github.com/vtaits/react-select-async-paginate)** (330 ★): [4 pull requests in review](https://github.com/vtaits/react-select-async-paginate/pulls?q=is%3Apr+author%3AAakashpai) covering a steady loading indicator, menu placement on first load, a `MenuList` ref warning and docs.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aakashpai/Aakashpai/output/snake-dark.svg" />
